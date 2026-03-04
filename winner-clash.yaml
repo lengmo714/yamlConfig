@@ -1,4 +1,3 @@
-#SUBSCRIBED https://itsfly.wilker.cn/clash/sub?key=its1688
 allow-lan: true
 clash-for-android:
     append-system-dns: false
