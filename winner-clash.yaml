@@ -1,0 +1,3720 @@
+#SUBSCRIBED https://itsfly.wilker.cn/clash/sub?key=its1688
+allow-lan: true
+clash-for-android:
+    append-system-dns: false
+dns:
+    default-nameserver:
+        - 114.114.114.114
+        - 114.114.115.115
+        - 223.5.5.5
+        - 223.6.6.6
+        - 119.29.29.29
+        - 8.8.8.8
+        - 8.8.4.4
+        - 1.1.1.1
+        - 1.0.0.1
+        - 208.67.222.222
+        - 208.67.220.220
+    enable: true
+    enhanced-mode: redir-host
+    fake-ip-filter:
+        - '*.lan'
+        - '*.local'
+    fake-ip-range: 198.18.0.1/16
+    fallback:
+        - https://1.1.1.1/dns-query
+        - https://1.0.0.1/dns-query
+        - https://dns.google/dns-query
+        - https://public.dns.iij.jp/dns-query
+        - https://dns.quad9.net/dns-query
+        - https://doh.sb/dns-query
+        - 9.9.9.9
+        - 1.0.0.1
+    fallback-filter:
+        geoip: true
+        geoip-code: CN
+        ipcidr:
+            - 240.0.0.0/4
+            - 0.0.0.0/8
+            - 127.0.0.0/8
+    ipv6: false
+    listen: 0.0.0.0:1053
+    nameserver:
+        - https://doh.pub/dns-query
+        - https://dns.alidns.com/dns-query
+        - 114.114.114.114
+        - 114.114.115.115
+        - 223.5.5.5
+        - 223.6.6.6
+        - 119.29.29.29
+        - 8.8.8.8
+        - 8.8.4.4
+        - 1.1.1.1
+        - 1.0.0.1
+        - 208.67.222.222
+        - 208.67.220.220
+    use-hosts: true
+external-controller: :9090
+log-level: info
+mixed-port: 7893
+mode: Rule
+port: 7890
+proxies:
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15004
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15031
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15021
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 04"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15024
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 05"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15011
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 06"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15007
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 07"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15017
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 08"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15014
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 09"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15027
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇭🇰 Hong Kong 10"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 15001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇸🇬 Singapore 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 18801
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇸🇬 Singapore 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 18807
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇸🇬 Singapore 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 18811
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇸🇬 Singapore 04"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 18814
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇸🇬 Singapore 05"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 18804
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇯🇵 Japan 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48367
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇯🇵 Japan 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48253
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇯🇵 Japan 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48023
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇯🇵 Japan 04"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48094
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇯🇵 Japan 05"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48179
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇺🇸 United States 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48785
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇺🇸 United States 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48469
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇺🇸 United States 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48597
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇺🇸 United States 04"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48895
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇺🇸 United States 05"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48670
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇳 Taiwan 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 19007
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇳 Taiwan 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 19014
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇳 Taiwan 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 19011
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇳 Taiwan 04"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 19001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇳 Taiwan 05"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 19004
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇩🇪 Germany 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 21007
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇩🇪 Germany 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 21001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇩🇪 Germany 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 21004
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇬🇧 United Kingdom 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 22007
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇬🇧 United Kingdom 02"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 22004
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇬🇧 United Kingdom 03"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 22001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇰🇷 South Korea 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 48955
+      server: jq26txdo.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇦🇺 Australia 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 29001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇫🇷 France 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 25001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇨🇭 Switzerland 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 30001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇳🇱 Netherlands 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 26001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "krm-🇮🇳 India 01"
+      password: aLBxsnzSc2Gb8Q72O0HHhw==:jentq0/KrWieLWSddPCX/w==
+      port: 27001
+      server: jfjydhc1.ovalyraa.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 日用 专线 香港 [0.2]"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14091
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 日用 专线 狮城 [0.2]"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14092
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 日用 专线 日本 [0.2]"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14093
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 日用 专线 美国 [0.2]"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14094
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14101
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14102
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14103
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14104
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 05"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14105
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 06"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14106
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 07"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14107
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 高级 专线 香港 08"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14108
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 高级 专线 狮城 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14111
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 高级 专线 狮城 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14112
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 高级 专线 狮城 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14113
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 高级 专线 狮城 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14114
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 高级 专线 狮城 05"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14115
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14131
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14132
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14133
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14134
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 05"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14135
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 06"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14136
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 07"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14137
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 08"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14138
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 09"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14139
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 高级 专线 美国 10"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14140
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇰🇷 高级 专线 韩国 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14141
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇰🇷 高级 专线 韩国 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14142
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇨🇳 高级 专线 台湾 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14151
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇨🇳 高级 专线 台湾 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14152
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14121
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14122
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14123
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14124
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 05"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14125
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 06"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14126
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 07"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14127
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 高级 专线 日本 08"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14128
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 标准 专线 香港 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14001
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 标准 专线 香港 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14002
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇰 标准 专线 香港 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14003
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 标准 专线 狮城 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14011
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 标准 专线 狮城 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14012
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇸🇬 标准 专线 狮城 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14013
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14031
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14032
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14033
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14034
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 05"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14035
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇸 标准 专线 美国 06"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14036
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇰🇷 标准 专线 韩国 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14041
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 标准 专线 日本 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14021
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 标准 专线 日本 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14022
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 标准 专线 日本 03"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14023
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇯🇵 标准 专线 日本 04"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14024
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇨🇳 标准 专线 台湾 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14051
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇬🇧 特殊 专线 伦敦 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14201
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇬🇧 特殊 专线 伦敦 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14202
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇩🇪 特殊 专线 德国 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14200
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇩🇪 特殊 专线 德国 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14207
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇧🇷 特殊 专线 巴西 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14205
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇨🇦 特殊 专线 加拿大 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14206
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇨🇦 特殊 专线 加拿大 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14208
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇹🇷 特殊 专线 土耳其 01"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14198
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇹🇷 特殊 专线 土耳其 02"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14218
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇹🇭 特殊 专线 泰国"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14161
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇻🇳 特殊 专线 越南"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14162
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇮🇳 特殊 专线 印度"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14194
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇦🇺 特殊 专线 悉尼"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14199
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇦🇪 特殊 专线 迪拜"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14203
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇫🇷 特殊 专线 法国"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14204
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇳🇱 特殊 专线 荷兰"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14213
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇮🇩 特殊 专线 印尼"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14214
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇿🇦 特殊 专线 南非"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14215
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇪🇬 特殊 专线 埃及"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14220
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇵🇭 特殊 专线 菲律宾"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14191
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇮🇹 特殊 专线 意大利"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14193
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇪🇸 特殊 专线 西班牙"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14192
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇭🇺 特殊 专线 匈牙利"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14196
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇮🇱 特殊 专线 以色列"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14209
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇺🇦 特殊 专线 乌克兰"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14211
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇷🇺 特殊 专线 俄罗斯"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14195
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇲🇾 特殊 专线 马来西亚"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14219
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇳🇬 特殊 专线 尼日利亚"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14210
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇵🇰 特殊 专线 巴基斯坦"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14216
+      server: bepgzbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇲🇩 特殊 专线 摩尔多瓦"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14217
+      server: bepbjbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "yto-🇦🇷 购物 专线 阿根廷"
+      password: lE9uL5fR3yR9
+      plugin: obfs
+      plugin-opts:
+        host: 76b506bc7b.iqiyi.com
+        mode: http
+      port: 14197
+      server: bepshbgp01.114837322.xyz
+      type: ss
+    - cipher: chacha20-ietf
+      name: "htw-🇮🇱 Large 以色列"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6111
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Large 台湾01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6501
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇨🇳 Large 台湾02"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6502
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇨🇳 Large 台湾03"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6503
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Large 台湾04"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6504
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Large 台湾05"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6505
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇨🇳 Large 台湾06"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6506
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇲🇽 Large 墨西哥01 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6112
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇩🇪 Large 德国01 | 倍率:1.3"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6113
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇮🇹 Large 意大利01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6115
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇸🇬 Large 新加坡01 | 倍率:1.8"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3201
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡02 | 倍率:1.8"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3202
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡03"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3203
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡04 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3204
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡05 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3205
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡06 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3206
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡07 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3207
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇸🇬 Large 新加坡08 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1004
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Large 新加坡09 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3209
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇸🇬 Large 新加坡10 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 3210
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇯🇵 Large 日本01 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6301
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Large 日本02"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6302
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Large 日本03"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6303
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Large 日本04"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6304
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇯🇵 Large 日本05 | 倍率:2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6305
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇫🇷 Large 法国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6116
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇦🇺 Large 澳洲01 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6110
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Large 美国01 | 倍率:2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1098
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Large 美国02 | 倍率:1.8"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6202
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Large 美国03 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6203
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Large 美国04 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6204
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Large 美国05 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6205
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Large 美国06 | 倍率:1.7"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6206
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇬🇧 Large 英国01 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6114
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇻🇳 Large 越南01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6117
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇰🇷 Large 韩国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6101
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇰🇷 Large 韩国02"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6102
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Large 香港01 | 倍率:2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6001
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港02 | 倍率:2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6002
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Large 香港03 | 倍率:2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6003
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港04"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6004
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港05"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6005
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港06 | 倍率:2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6006
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港07 | 倍率:1.8"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6007
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港08"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6008
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港09 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6009
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港10 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6010
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港11 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6011
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港12 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6012
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港13 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6013
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港14 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6014
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港15 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6015
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港16 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6016
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Large 香港17 | 倍率:1.8"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 6017
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn02.0821.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇮🇱 Lil 以色列01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2815
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇷🇺 Lil 俄罗斯01 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2807
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇦 Lil 加拿大01 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2806
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇮🇳 Lil 印度01 | 倍率:1.3"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2701
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇮🇳 Lil 印度02 | 倍率:1.3"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2702
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇨🇳 Lil 台湾01 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1111
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Lil 台湾02"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1112
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Lil 台湾03 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1113
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Lil 台湾04 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1114
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Lil 台湾05 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1115
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇨🇳 Lil 台湾06 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1116
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇹🇷 Lil 土耳其01 | 倍率:1"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2803
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇧🇷 Lil 巴西1 | 倍率:1"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2808
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇩🇪 Lil 德国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2810
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇮🇹 Lil 意大利01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2812
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Lil 新加坡01 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2201
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇸🇬 Lil 新加坡02 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2202
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Lil 新加坡03 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2203
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Lil 新加坡04 | 倍率:2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2204
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇬 Lil 新加坡05 | 倍率:2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2205
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Lil 日本01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2601
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Lil 日本02"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2602
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Lil 日本03"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2603
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇯🇵 Lil 日本04"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2604
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇯🇵 Lil 日本05 | 倍率:1.3"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2605
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇸🇦 Lil 沙特01 | 倍率:1"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2809
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇫🇷 Lil 法国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2814
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇹🇭 Lil 泰国01 | 倍率:1"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2804
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Lil 美国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1150
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Lil 美国02 | 倍率:1.9"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1151
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Lil 美国03"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1152
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Lil 美国04 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1153
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Lil 美国05 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1154
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Lil 美国06 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1155
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇺🇸 Lil 美国07 | 倍率:1.3"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1156
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Lil 美国08"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1157
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇺🇸 Lil 美国09"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 1158
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇬🇧 Lil 英国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2811
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇳🇱 Lil 荷兰01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2813
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇵🇭 Lil 菲律宾01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2802
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇪🇸 Lil 西班牙01 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2805
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇦🇷 Lil 阿根廷01 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2801
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇰🇷 Lil 韩国01"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2301
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇰🇷 Lil 韩国02 | 倍率:1.2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2302
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇰🇷 Lil 韩国03"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2303
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇰🇷 Lil 韩国04 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2506
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇰🇷 Lil 韩国05 | 倍率:1.2"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2507
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Lil 香港01 | 倍率:1.8"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2101
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Lil 香港02"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2102
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: aes-256-cfb
+      name: "htw-🇭🇰 Lil 香港03 | 倍率:1.6"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2103
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Lil 香港04"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2104
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: aes-256-cfb
+      name: "htw-🇭🇰 Lil 香港05 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2105
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: aes-256-cfb
+      name: "htw-🇭🇰 Lil 香港06 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2106
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: aes-256-cfb
+      name: "htw-🇭🇰 Lil 香港07 | 倍率:1.5"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2107
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Lil 香港08 | 倍率:1.5"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2108
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Lil 香港09 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2109
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Lil 香港10 | 倍率:1.6"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2110
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: rc4-md5
+      name: "htw-🇭🇰 Lil 香港11 | 倍率:2"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2111
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+    - cipher: chacha20-ietf
+      name: "htw-🇭🇰 Lil 香港12"
+      obfs: plain
+      obfs-param: 4d0251854.douyin.com
+      password: di15PV
+      port: 2112
+      protocol: auth_aes128_md5
+      protocol-param: 251854:UJiWRm
+      server: cdn01.25k2l8.meituan88.com
+      type: ssr
+      udp: true
+proxy-groups:
+    - key_gf: 0
+      name: '⏰ 刷新时间: 2026-03-03 15:46:12 (103-all-v1.3.2)'
+      proxies:
+        - "🎯 直连"
+      type: select
+    - key_gf: 2
+      name: "🔰 代理"
+      proxies:
+        - "🍋 (City) 🇭🇰 香港"
+        - "🛠️ 手动选择 (所有节点)"
+        - "🚀 ChatGPT"
+        - "🍋 (City) 🇺🇸 美国"
+        - "🍋 (City) 🇮🇳 印度"
+        - "🍋 (City) 🇨🇳 台湾"
+        - "🍋 (City) 🇸🇬 新加坡"
+        - "🍋 (City) 🇬🇧 英国"
+        - "🍋 (City) 🇰🇷 韩国"
+        - "🍋 (City) 🇯🇵 日本"
+        - "🍋 (City) 🇪🇺 其他国家"
+        - "️🍎 (Its) 🇭🇰 香港 All"
+        - "️🍎 (Its) 🇨🇳 深圳"
+        - "️🍎 (Its) 🇸🇬 新加坡"
+        - "️🍎 (Its) 🇮🇳 印度"
+        - "🍎 (Its) 🚀 ChatGPT"
+        - "️🍎 (Its) 🇮🇳 印度 SS"
+        - "🎯 直连"
+        - ❌ 拦截
+      type: select
+    - key_gf: 1
+      name: "🛠️ 手动选择 (所有节点)"
+      proxies:
+        - "🎯 直连"
+        - ❌ 拦截
+        - "krm-🇭🇰 Hong Kong 01"
+        - "krm-🇭🇰 Hong Kong 02"
+        - "krm-🇭🇰 Hong Kong 03"
+        - "krm-🇭🇰 Hong Kong 04"
+        - "krm-🇭🇰 Hong Kong 05"
+        - "krm-🇭🇰 Hong Kong 06"
+        - "krm-🇭🇰 Hong Kong 07"
+        - "krm-🇭🇰 Hong Kong 08"
+        - "krm-🇭🇰 Hong Kong 09"
+        - "krm-🇭🇰 Hong Kong 10"
+        - "krm-🇸🇬 Singapore 01"
+        - "krm-🇸🇬 Singapore 02"
+        - "krm-🇸🇬 Singapore 03"
+        - "krm-🇸🇬 Singapore 04"
+        - "krm-🇸🇬 Singapore 05"
+        - "krm-🇯🇵 Japan 01"
+        - "krm-🇯🇵 Japan 02"
+        - "krm-🇯🇵 Japan 03"
+        - "krm-🇯🇵 Japan 04"
+        - "krm-🇯🇵 Japan 05"
+        - "krm-🇺🇸 United States 01"
+        - "krm-🇺🇸 United States 02"
+        - "krm-🇺🇸 United States 03"
+        - "krm-🇺🇸 United States 04"
+        - "krm-🇺🇸 United States 05"
+        - "krm-🇨🇳 Taiwan 01"
+        - "krm-🇨🇳 Taiwan 02"
+        - "krm-🇨🇳 Taiwan 03"
+        - "krm-🇨🇳 Taiwan 04"
+        - "krm-🇨🇳 Taiwan 05"
+        - "krm-🇩🇪 Germany 01"
+        - "krm-🇩🇪 Germany 02"
+        - "krm-🇩🇪 Germany 03"
+        - "krm-🇬🇧 United Kingdom 01"
+        - "krm-🇬🇧 United Kingdom 02"
+        - "krm-🇬🇧 United Kingdom 03"
+        - "krm-🇰🇷 South Korea 01"
+        - "krm-🇦🇺 Australia 01"
+        - "krm-🇫🇷 France 01"
+        - "krm-🇨🇭 Switzerland 01"
+        - "krm-🇳🇱 Netherlands 01"
+        - "krm-🇮🇳 India 01"
+        - "yto-🇭🇰 日用 专线 香港 [0.2]"
+        - "yto-🇸🇬 日用 专线 狮城 [0.2]"
+        - "yto-🇯🇵 日用 专线 日本 [0.2]"
+        - "yto-🇺🇸 日用 专线 美国 [0.2]"
+        - "yto-🇭🇰 高级 专线 香港 01"
+        - "yto-🇭🇰 高级 专线 香港 02"
+        - "yto-🇭🇰 高级 专线 香港 03"
+        - "yto-🇭🇰 高级 专线 香港 04"
+        - "yto-🇭🇰 高级 专线 香港 05"
+        - "yto-🇭🇰 高级 专线 香港 06"
+        - "yto-🇭🇰 高级 专线 香港 07"
+        - "yto-🇭🇰 高级 专线 香港 08"
+        - "yto-🇸🇬 高级 专线 狮城 01"
+        - "yto-🇸🇬 高级 专线 狮城 02"
+        - "yto-🇸🇬 高级 专线 狮城 03"
+        - "yto-🇸🇬 高级 专线 狮城 04"
+        - "yto-🇸🇬 高级 专线 狮城 05"
+        - "yto-🇺🇸 高级 专线 美国 01"
+        - "yto-🇺🇸 高级 专线 美国 02"
+        - "yto-🇺🇸 高级 专线 美国 03"
+        - "yto-🇺🇸 高级 专线 美国 04"
+        - "yto-🇺🇸 高级 专线 美国 05"
+        - "yto-🇺🇸 高级 专线 美国 06"
+        - "yto-🇺🇸 高级 专线 美国 07"
+        - "yto-🇺🇸 高级 专线 美国 08"
+        - "yto-🇺🇸 高级 专线 美国 09"
+        - "yto-🇺🇸 高级 专线 美国 10"
+        - "yto-🇰🇷 高级 专线 韩国 01"
+        - "yto-🇰🇷 高级 专线 韩国 02"
+        - "yto-🇨🇳 高级 专线 台湾 01"
+        - "yto-🇨🇳 高级 专线 台湾 02"
+        - "yto-🇯🇵 高级 专线 日本 01"
+        - "yto-🇯🇵 高级 专线 日本 02"
+        - "yto-🇯🇵 高级 专线 日本 03"
+        - "yto-🇯🇵 高级 专线 日本 04"
+        - "yto-🇯🇵 高级 专线 日本 05"
+        - "yto-🇯🇵 高级 专线 日本 06"
+        - "yto-🇯🇵 高级 专线 日本 07"
+        - "yto-🇯🇵 高级 专线 日本 08"
+        - "yto-🇭🇰 标准 专线 香港 01"
+        - "yto-🇭🇰 标准 专线 香港 02"
+        - "yto-🇭🇰 标准 专线 香港 03"
+        - "yto-🇸🇬 标准 专线 狮城 01"
+        - "yto-🇸🇬 标准 专线 狮城 02"
+        - "yto-🇸🇬 标准 专线 狮城 03"
+        - "yto-🇺🇸 标准 专线 美国 01"
+        - "yto-🇺🇸 标准 专线 美国 02"
+        - "yto-🇺🇸 标准 专线 美国 03"
+        - "yto-🇺🇸 标准 专线 美国 04"
+        - "yto-🇺🇸 标准 专线 美国 05"
+        - "yto-🇺🇸 标准 专线 美国 06"
+        - "yto-🇰🇷 标准 专线 韩国 01"
+        - "yto-🇯🇵 标准 专线 日本 01"
+        - "yto-🇯🇵 标准 专线 日本 02"
+        - "yto-🇯🇵 标准 专线 日本 03"
+        - "yto-🇯🇵 标准 专线 日本 04"
+        - "yto-🇨🇳 标准 专线 台湾 01"
+        - "yto-🇬🇧 特殊 专线 伦敦 01"
+        - "yto-🇬🇧 特殊 专线 伦敦 02"
+        - "yto-🇩🇪 特殊 专线 德国 01"
+        - "yto-🇩🇪 特殊 专线 德国 02"
+        - "yto-🇧🇷 特殊 专线 巴西 01"
+        - "yto-🇨🇦 特殊 专线 加拿大 01"
+        - "yto-🇨🇦 特殊 专线 加拿大 02"
+        - "yto-🇹🇷 特殊 专线 土耳其 01"
+        - "yto-🇹🇷 特殊 专线 土耳其 02"
+        - "yto-🇹🇭 特殊 专线 泰国"
+        - "yto-🇻🇳 特殊 专线 越南"
+        - "yto-🇮🇳 特殊 专线 印度"
+        - "yto-🇦🇺 特殊 专线 悉尼"
+        - "yto-🇦🇪 特殊 专线 迪拜"
+        - "yto-🇫🇷 特殊 专线 法国"
+        - "yto-🇳🇱 特殊 专线 荷兰"
+        - "yto-🇮🇩 特殊 专线 印尼"
+        - "yto-🇿🇦 特殊 专线 南非"
+        - "yto-🇪🇬 特殊 专线 埃及"
+        - "yto-🇵🇭 特殊 专线 菲律宾"
+        - "yto-🇮🇹 特殊 专线 意大利"
+        - "yto-🇪🇸 特殊 专线 西班牙"
+        - "yto-🇭🇺 特殊 专线 匈牙利"
+        - "yto-🇮🇱 特殊 专线 以色列"
+        - "yto-🇺🇦 特殊 专线 乌克兰"
+        - "yto-🇷🇺 特殊 专线 俄罗斯"
+        - "yto-🇲🇾 特殊 专线 马来西亚"
+        - "yto-🇳🇬 特殊 专线 尼日利亚"
+        - "yto-🇵🇰 特殊 专线 巴基斯坦"
+        - "yto-🇲🇩 特殊 专线 摩尔多瓦"
+        - "yto-🇦🇷 购物 专线 阿根廷"
+        - "htw-🇮🇱 Large 以色列"
+        - "htw-🇨🇳 Large 台湾01"
+        - "htw-🇨🇳 Large 台湾02"
+        - "htw-🇨🇳 Large 台湾03"
+        - "htw-🇨🇳 Large 台湾04"
+        - "htw-🇨🇳 Large 台湾05"
+        - "htw-🇨🇳 Large 台湾06"
+        - "htw-🇲🇽 Large 墨西哥01 | 倍率:1.5"
+        - "htw-🇩🇪 Large 德国01 | 倍率:1.3"
+        - "htw-🇮🇹 Large 意大利01"
+        - "htw-🇸🇬 Large 新加坡01 | 倍率:1.8"
+        - "htw-🇸🇬 Large 新加坡02 | 倍率:1.8"
+        - "htw-🇸🇬 Large 新加坡03"
+        - "htw-🇸🇬 Large 新加坡04 | 倍率:1.6"
+        - "htw-🇸🇬 Large 新加坡05 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡06 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡07 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡08 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡09 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡10 | 倍率:1.5"
+        - "htw-🇯🇵 Large 日本01 | 倍率:1.5"
+        - "htw-🇯🇵 Large 日本02"
+        - "htw-🇯🇵 Large 日本03"
+        - "htw-🇯🇵 Large 日本04"
+        - "htw-🇯🇵 Large 日本05 | 倍率:2"
+        - "htw-🇫🇷 Large 法国01"
+        - "htw-🇦🇺 Large 澳洲01 | 倍率:1.6"
+        - "htw-🇺🇸 Large 美国01 | 倍率:2"
+        - "htw-🇺🇸 Large 美国02 | 倍率:1.8"
+        - "htw-🇺🇸 Large 美国03 | 倍率:1.6"
+        - "htw-🇺🇸 Large 美国04 | 倍率:1.5"
+        - "htw-🇺🇸 Large 美国05 | 倍率:1.5"
+        - "htw-🇺🇸 Large 美国06 | 倍率:1.7"
+        - "htw-🇬🇧 Large 英国01 | 倍率:1.2"
+        - "htw-🇻🇳 Large 越南01"
+        - "htw-🇰🇷 Large 韩国01"
+        - "htw-🇰🇷 Large 韩国02"
+        - "htw-🇭🇰 Large 香港01 | 倍率:2"
+        - "htw-🇭🇰 Large 香港02 | 倍率:2"
+        - "htw-🇭🇰 Large 香港03 | 倍率:2"
+        - "htw-🇭🇰 Large 香港04"
+        - "htw-🇭🇰 Large 香港05"
+        - "htw-🇭🇰 Large 香港06 | 倍率:2"
+        - "htw-🇭🇰 Large 香港07 | 倍率:1.8"
+        - "htw-🇭🇰 Large 香港08"
+        - "htw-🇭🇰 Large 香港09 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港10 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港11 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港12 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港13 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港14 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港15 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港16 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港17 | 倍率:1.8"
+        - "htw-🇮🇱 Lil 以色列01"
+        - "htw-🇷🇺 Lil 俄罗斯01 | 倍率:1.3"
+        - "htw-🇨🇦 Lil 加拿大01 | 倍率:1.3"
+        - "htw-🇮🇳 Lil 印度01 | 倍率:1.3"
+        - "htw-🇮🇳 Lil 印度02 | 倍率:1.3"
+        - "htw-🇨🇳 Lil 台湾01 | 倍率:1.5"
+        - "htw-🇨🇳 Lil 台湾02"
+        - "htw-🇨🇳 Lil 台湾03 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾04 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾05 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾06 | 倍率:1.2"
+        - "htw-🇹🇷 Lil 土耳其01 | 倍率:1"
+        - "htw-🇧🇷 Lil 巴西1 | 倍率:1"
+        - "htw-🇩🇪 Lil 德国01"
+        - "htw-🇮🇹 Lil 意大利01"
+        - "htw-🇸🇬 Lil 新加坡01 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡02 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡03 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡04 | 倍率:2"
+        - "htw-🇸🇬 Lil 新加坡05 | 倍率:2"
+        - "htw-🇯🇵 Lil 日本01"
+        - "htw-🇯🇵 Lil 日本02"
+        - "htw-🇯🇵 Lil 日本03"
+        - "htw-🇯🇵 Lil 日本04"
+        - "htw-🇯🇵 Lil 日本05 | 倍率:1.3"
+        - "htw-🇸🇦 Lil 沙特01 | 倍率:1"
+        - "htw-🇫🇷 Lil 法国01"
+        - "htw-🇹🇭 Lil 泰国01 | 倍率:1"
+        - "htw-🇺🇸 Lil 美国01"
+        - "htw-🇺🇸 Lil 美国02 | 倍率:1.9"
+        - "htw-🇺🇸 Lil 美国03"
+        - "htw-🇺🇸 Lil 美国04 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国05 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国06 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国07 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国08"
+        - "htw-🇺🇸 Lil 美国09"
+        - "htw-🇬🇧 Lil 英国01"
+        - "htw-🇳🇱 Lil 荷兰01"
+        - "htw-🇵🇭 Lil 菲律宾01"
+        - "htw-🇪🇸 Lil 西班牙01 | 倍率:1.5"
+        - "htw-🇦🇷 Lil 阿根廷01 | 倍率:1.5"
+        - "htw-🇰🇷 Lil 韩国01"
+        - "htw-🇰🇷 Lil 韩国02 | 倍率:1.2"
+        - "htw-🇰🇷 Lil 韩国03"
+        - "htw-🇰🇷 Lil 韩国04 | 倍率:1.2"
+        - "htw-🇰🇷 Lil 韩国05 | 倍率:1.2"
+        - "htw-🇭🇰 Lil 香港01 | 倍率:1.8"
+        - "htw-🇭🇰 Lil 香港02"
+        - "htw-🇭🇰 Lil 香港03 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港04"
+        - "htw-🇭🇰 Lil 香港05 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港06 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港07 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港08 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港09 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港10 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港11 | 倍率:2"
+        - "htw-🇭🇰 Lil 香港12"
+      type: select
+    - key_gf: 1
+      name: "🚀 ChatGPT"
+      proxies:
+        - "krm-🇸🇬 Singapore 01"
+        - "krm-🇸🇬 Singapore 02"
+        - "krm-🇸🇬 Singapore 03"
+        - "krm-🇸🇬 Singapore 04"
+        - "krm-🇸🇬 Singapore 05"
+        - "yto-🇸🇬 日用 专线 狮城 [0.2]"
+        - "yto-🇸🇬 高级 专线 狮城 01"
+        - "yto-🇸🇬 高级 专线 狮城 02"
+        - "yto-🇸🇬 高级 专线 狮城 03"
+        - "yto-🇸🇬 高级 专线 狮城 04"
+        - "yto-🇸🇬 高级 专线 狮城 05"
+        - "yto-🇸🇬 标准 专线 狮城 01"
+        - "yto-🇸🇬 标准 专线 狮城 02"
+        - "yto-🇸🇬 标准 专线 狮城 03"
+        - "htw-🇸🇬 Lil 新加坡01 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡02 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡03 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡04 | 倍率:2"
+        - "htw-🇸🇬 Lil 新加坡05 | 倍率:2"
+        - "🍎 (Its) 🚀 ChatGPT"
+      type: select
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇭🇰 香港"
+      proxies:
+        - "krm-🇭🇰 Hong Kong 01"
+        - "krm-🇭🇰 Hong Kong 02"
+        - "krm-🇭🇰 Hong Kong 03"
+        - "krm-🇭🇰 Hong Kong 04"
+        - "krm-🇭🇰 Hong Kong 05"
+        - "krm-🇭🇰 Hong Kong 06"
+        - "krm-🇭🇰 Hong Kong 07"
+        - "krm-🇭🇰 Hong Kong 08"
+        - "krm-🇭🇰 Hong Kong 09"
+        - "krm-🇭🇰 Hong Kong 10"
+        - "yto-🇭🇰 日用 专线 香港 [0.2]"
+        - "yto-🇭🇰 高级 专线 香港 01"
+        - "yto-🇭🇰 高级 专线 香港 02"
+        - "yto-🇭🇰 高级 专线 香港 03"
+        - "yto-🇭🇰 高级 专线 香港 04"
+        - "yto-🇭🇰 高级 专线 香港 05"
+        - "yto-🇭🇰 高级 专线 香港 06"
+        - "yto-🇭🇰 高级 专线 香港 07"
+        - "yto-🇭🇰 高级 专线 香港 08"
+        - "yto-🇭🇰 标准 专线 香港 01"
+        - "yto-🇭🇰 标准 专线 香港 02"
+        - "yto-🇭🇰 标准 专线 香港 03"
+        - "htw-🇭🇰 Large 香港01 | 倍率:2"
+        - "htw-🇭🇰 Large 香港02 | 倍率:2"
+        - "htw-🇭🇰 Large 香港03 | 倍率:2"
+        - "htw-🇭🇰 Large 香港04"
+        - "htw-🇭🇰 Large 香港05"
+        - "htw-🇭🇰 Large 香港06 | 倍率:2"
+        - "htw-🇭🇰 Large 香港07 | 倍率:1.8"
+        - "htw-🇭🇰 Large 香港08"
+        - "htw-🇭🇰 Large 香港09 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港10 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港11 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港12 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港13 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港14 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港15 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港16 | 倍率:1.6"
+        - "htw-🇭🇰 Large 香港17 | 倍率:1.8"
+        - "htw-🇭🇰 Lil 香港01 | 倍率:1.8"
+        - "htw-🇭🇰 Lil 香港02"
+        - "htw-🇭🇰 Lil 香港03 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港04"
+        - "htw-🇭🇰 Lil 香港05 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港06 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港07 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港08 | 倍率:1.5"
+        - "htw-🇭🇰 Lil 香港09 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港10 | 倍率:1.6"
+        - "htw-🇭🇰 Lil 香港11 | 倍率:2"
+        - "htw-🇭🇰 Lil 香港12"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇺🇸 美国"
+      proxies:
+        - "krm-🇺🇸 United States 01"
+        - "krm-🇺🇸 United States 02"
+        - "krm-🇺🇸 United States 03"
+        - "krm-🇺🇸 United States 04"
+        - "krm-🇺🇸 United States 05"
+        - "yto-🇺🇸 日用 专线 美国 [0.2]"
+        - "yto-🇺🇸 高级 专线 美国 01"
+        - "yto-🇺🇸 高级 专线 美国 02"
+        - "yto-🇺🇸 高级 专线 美国 03"
+        - "yto-🇺🇸 高级 专线 美国 04"
+        - "yto-🇺🇸 高级 专线 美国 05"
+        - "yto-🇺🇸 高级 专线 美国 06"
+        - "yto-🇺🇸 高级 专线 美国 07"
+        - "yto-🇺🇸 高级 专线 美国 08"
+        - "yto-🇺🇸 高级 专线 美国 09"
+        - "yto-🇺🇸 高级 专线 美国 10"
+        - "yto-🇺🇸 标准 专线 美国 01"
+        - "yto-🇺🇸 标准 专线 美国 02"
+        - "yto-🇺🇸 标准 专线 美国 03"
+        - "yto-🇺🇸 标准 专线 美国 04"
+        - "yto-🇺🇸 标准 专线 美国 05"
+        - "yto-🇺🇸 标准 专线 美国 06"
+        - "htw-🇺🇸 Large 美国01 | 倍率:2"
+        - "htw-🇺🇸 Large 美国02 | 倍率:1.8"
+        - "htw-🇺🇸 Large 美国03 | 倍率:1.6"
+        - "htw-🇺🇸 Large 美国04 | 倍率:1.5"
+        - "htw-🇺🇸 Large 美国05 | 倍率:1.5"
+        - "htw-🇺🇸 Large 美国06 | 倍率:1.7"
+        - "htw-🇺🇸 Lil 美国01"
+        - "htw-🇺🇸 Lil 美国02 | 倍率:1.9"
+        - "htw-🇺🇸 Lil 美国03"
+        - "htw-🇺🇸 Lil 美国04 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国05 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国06 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国07 | 倍率:1.3"
+        - "htw-🇺🇸 Lil 美国08"
+        - "htw-🇺🇸 Lil 美国09"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇮🇳 印度"
+      proxies:
+        - "krm-🇮🇳 India 01"
+        - "yto-🇮🇳 特殊 专线 印度"
+        - "htw-🇮🇳 Lil 印度01 | 倍率:1.3"
+        - "htw-🇮🇳 Lil 印度02 | 倍率:1.3"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇨🇳 台湾"
+      proxies:
+        - "krm-🇨🇳 Taiwan 01"
+        - "krm-🇨🇳 Taiwan 02"
+        - "krm-🇨🇳 Taiwan 03"
+        - "krm-🇨🇳 Taiwan 04"
+        - "krm-🇨🇳 Taiwan 05"
+        - "yto-🇨🇳 高级 专线 台湾 01"
+        - "yto-🇨🇳 高级 专线 台湾 02"
+        - "yto-🇨🇳 标准 专线 台湾 01"
+        - "htw-🇨🇳 Large 台湾01"
+        - "htw-🇨🇳 Large 台湾02"
+        - "htw-🇨🇳 Large 台湾03"
+        - "htw-🇨🇳 Large 台湾04"
+        - "htw-🇨🇳 Large 台湾05"
+        - "htw-🇨🇳 Large 台湾06"
+        - "htw-🇨🇳 Lil 台湾01 | 倍率:1.5"
+        - "htw-🇨🇳 Lil 台湾02"
+        - "htw-🇨🇳 Lil 台湾03 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾04 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾05 | 倍率:1.2"
+        - "htw-🇨🇳 Lil 台湾06 | 倍率:1.2"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇸🇬 新加坡"
+      proxies:
+        - "krm-🇸🇬 Singapore 01"
+        - "krm-🇸🇬 Singapore 02"
+        - "krm-🇸🇬 Singapore 03"
+        - "krm-🇸🇬 Singapore 04"
+        - "krm-🇸🇬 Singapore 05"
+        - "yto-🇸🇬 日用 专线 狮城 [0.2]"
+        - "yto-🇸🇬 高级 专线 狮城 01"
+        - "yto-🇸🇬 高级 专线 狮城 02"
+        - "yto-🇸🇬 高级 专线 狮城 03"
+        - "yto-🇸🇬 高级 专线 狮城 04"
+        - "yto-🇸🇬 高级 专线 狮城 05"
+        - "yto-🇸🇬 标准 专线 狮城 01"
+        - "yto-🇸🇬 标准 专线 狮城 02"
+        - "yto-🇸🇬 标准 专线 狮城 03"
+        - "htw-🇸🇬 Large 新加坡01 | 倍率:1.8"
+        - "htw-🇸🇬 Large 新加坡02 | 倍率:1.8"
+        - "htw-🇸🇬 Large 新加坡03"
+        - "htw-🇸🇬 Large 新加坡04 | 倍率:1.6"
+        - "htw-🇸🇬 Large 新加坡05 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡06 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡07 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡08 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡09 | 倍率:1.5"
+        - "htw-🇸🇬 Large 新加坡10 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡01 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡02 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡03 | 倍率:1.5"
+        - "htw-🇸🇬 Lil 新加坡04 | 倍率:2"
+        - "htw-🇸🇬 Lil 新加坡05 | 倍率:2"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇬🇧 英国"
+      proxies:
+        - "krm-🇬🇧 United Kingdom 01"
+        - "krm-🇬🇧 United Kingdom 02"
+        - "krm-🇬🇧 United Kingdom 03"
+        - "yto-🇬🇧 特殊 专线 伦敦 01"
+        - "yto-🇬🇧 特殊 专线 伦敦 02"
+        - "htw-🇬🇧 Large 英国01 | 倍率:1.2"
+        - "htw-🇬🇧 Lil 英国01"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇰🇷 韩国"
+      proxies:
+        - "krm-🇰🇷 South Korea 01"
+        - "yto-🇰🇷 高级 专线 韩国 01"
+        - "yto-🇰🇷 高级 专线 韩国 02"
+        - "yto-🇰🇷 标准 专线 韩国 01"
+        - "htw-🇰🇷 Large 韩国01"
+        - "htw-🇰🇷 Large 韩国02"
+        - "htw-🇰🇷 Lil 韩国01"
+        - "htw-🇰🇷 Lil 韩国02 | 倍率:1.2"
+        - "htw-🇰🇷 Lil 韩国03"
+        - "htw-🇰🇷 Lil 韩国04 | 倍率:1.2"
+        - "htw-🇰🇷 Lil 韩国05 | 倍率:1.2"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 1
+      name: "🍋 (City) 🇯🇵 日本"
+      proxies:
+        - "krm-🇯🇵 Japan 01"
+        - "krm-🇯🇵 Japan 02"
+        - "krm-🇯🇵 Japan 03"
+        - "krm-🇯🇵 Japan 04"
+        - "krm-🇯🇵 Japan 05"
+        - "yto-🇯🇵 日用 专线 日本 [0.2]"
+        - "yto-🇯🇵 高级 专线 日本 01"
+        - "yto-🇯🇵 高级 专线 日本 02"
+        - "yto-🇯🇵 高级 专线 日本 03"
+        - "yto-🇯🇵 高级 专线 日本 04"
+        - "yto-🇯🇵 高级 专线 日本 05"
+        - "yto-🇯🇵 高级 专线 日本 06"
+        - "yto-🇯🇵 高级 专线 日本 07"
+        - "yto-🇯🇵 高级 专线 日本 08"
+        - "yto-🇯🇵 标准 专线 日本 01"
+        - "yto-🇯🇵 标准 专线 日本 02"
+        - "yto-🇯🇵 标准 专线 日本 03"
+        - "yto-🇯🇵 标准 专线 日本 04"
+        - "htw-🇯🇵 Large 日本01 | 倍率:1.5"
+        - "htw-🇯🇵 Large 日本02"
+        - "htw-🇯🇵 Large 日本03"
+        - "htw-🇯🇵 Large 日本04"
+        - "htw-🇯🇵 Large 日本05 | 倍率:2"
+        - "htw-🇯🇵 Lil 日本01"
+        - "htw-🇯🇵 Lil 日本02"
+        - "htw-🇯🇵 Lil 日本03"
+        - "htw-🇯🇵 Lil 日本04"
+        - "htw-🇯🇵 Lil 日本05 | 倍率:1.3"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - key_gf: 1
+      name: "🍋 (City) 🇪🇺 其他国家"
+      proxies:
+        - "krm-🇩🇪 Germany 01"
+        - "krm-🇩🇪 Germany 02"
+        - "krm-🇩🇪 Germany 03"
+        - "krm-🇦🇺 Australia 01"
+        - "krm-🇫🇷 France 01"
+        - "krm-🇨🇭 Switzerland 01"
+        - "krm-🇳🇱 Netherlands 01"
+        - "yto-🇩🇪 特殊 专线 德国 01"
+        - "yto-🇩🇪 特殊 专线 德国 02"
+        - "yto-🇧🇷 特殊 专线 巴西 01"
+        - "yto-🇨🇦 特殊 专线 加拿大 01"
+        - "yto-🇨🇦 特殊 专线 加拿大 02"
+        - "yto-🇹🇷 特殊 专线 土耳其 01"
+        - "yto-🇹🇷 特殊 专线 土耳其 02"
+        - "yto-🇹🇭 特殊 专线 泰国"
+        - "yto-🇻🇳 特殊 专线 越南"
+        - "yto-🇦🇺 特殊 专线 悉尼"
+        - "yto-🇦🇪 特殊 专线 迪拜"
+        - "yto-🇫🇷 特殊 专线 法国"
+        - "yto-🇳🇱 特殊 专线 荷兰"
+        - "yto-🇮🇩 特殊 专线 印尼"
+        - "yto-🇿🇦 特殊 专线 南非"
+        - "yto-🇪🇬 特殊 专线 埃及"
+        - "yto-🇵🇭 特殊 专线 菲律宾"
+        - "yto-🇮🇹 特殊 专线 意大利"
+        - "yto-🇪🇸 特殊 专线 西班牙"
+        - "yto-🇭🇺 特殊 专线 匈牙利"
+        - "yto-🇮🇱 特殊 专线 以色列"
+        - "yto-🇺🇦 特殊 专线 乌克兰"
+        - "yto-🇷🇺 特殊 专线 俄罗斯"
+        - "yto-🇲🇾 特殊 专线 马来西亚"
+        - "yto-🇳🇬 特殊 专线 尼日利亚"
+        - "yto-🇵🇰 特殊 专线 巴基斯坦"
+        - "yto-🇲🇩 特殊 专线 摩尔多瓦"
+        - "yto-🇦🇷 购物 专线 阿根廷"
+        - "htw-🇮🇱 Large 以色列"
+        - "htw-🇲🇽 Large 墨西哥01 | 倍率:1.5"
+        - "htw-🇩🇪 Large 德国01 | 倍率:1.3"
+        - "htw-🇮🇹 Large 意大利01"
+        - "htw-🇫🇷 Large 法国01"
+        - "htw-🇦🇺 Large 澳洲01 | 倍率:1.6"
+        - "htw-🇻🇳 Large 越南01"
+        - "htw-🇮🇱 Lil 以色列01"
+        - "htw-🇷🇺 Lil 俄罗斯01 | 倍率:1.3"
+        - "htw-🇨🇦 Lil 加拿大01 | 倍率:1.3"
+        - "htw-🇹🇷 Lil 土耳其01 | 倍率:1"
+        - "htw-🇧🇷 Lil 巴西1 | 倍率:1"
+        - "htw-🇩🇪 Lil 德国01"
+        - "htw-🇮🇹 Lil 意大利01"
+        - "htw-🇸🇦 Lil 沙特01 | 倍率:1"
+        - "htw-🇫🇷 Lil 法国01"
+        - "htw-🇹🇭 Lil 泰国01 | 倍率:1"
+        - "htw-🇳🇱 Lil 荷兰01"
+        - "htw-🇵🇭 Lil 菲律宾01"
+        - "htw-🇪🇸 Lil 西班牙01 | 倍率:1.5"
+        - "htw-🇦🇷 Lil 阿根廷01 | 倍率:1.5"
+      type: select
+    - key_gf: 2
+      name: "📢 AdsPower"
+      proxies:
+        - "🍋 (City) 🇭🇰 香港"
+        - "🍋 (City) 🇸🇬 新加坡"
+        - "️🍎 (Its) 🇸🇬 新加坡"
+        - "🛠️ 手动选择 (所有节点)"
+        - "🔰 代理"
+        - "️🍎 (Its) 🇭🇰 香港 All"
+      type: select
+    - key_gf: 2
+      name: "📱 WhatsApp"
+      proxies:
+        - "🍋 (City) 🇭🇰 香港"
+        - "🍋 (City) 🇸🇬 新加坡"
+        - "️🍎 (Its) 🇸🇬 新加坡"
+        - "🛠️ 手动选择 (所有节点)"
+        - "🔰 代理"
+        - "️🍎 (Its) 🇭🇰 香港 All"
+      type: select
+    - key_gf: 2
+      name: "🇨🇳 国内媒体"
+      proxies:
+        - "🎯 直连"
+        - ❌ 拦截
+        - "🔰 代理"
+      type: select
+    - key_gf: 2
+      name: "🇺🇸 国外媒体"
+      proxies:
+        - "🔰 代理"
+        - "🎯 直连"
+        - ❌ 拦截
+      type: select
+    - key_gf: 2
+      name: "🎮 游戏平台"
+      proxies:
+        - "🔰 代理"
+        - "🎯 直连"
+        - ❌ 拦截
+      type: select
+    - key_gf: 0
+      name: "🎯 直连"
+      proxies:
+        - DIRECT
+      type: select
+    - key_gf: 0
+      name: ❌ 拦截
+      proxies:
+        - REJECT
+      type: select
+    - interval: 180
+      key_gf: 1
+      name: "️🍎 (Its) 🇭🇰 香港 All"
+      proxies:
+        - "️🍎 (Its) 🇭🇰 香港 01"
+        - "️🍎 (Its) 🇭🇰 香港 05"
+        - "️🍎 (Its) 🇭🇰 香港 06"
+        - "️🍎 (Its) 🇭🇰 香港 07"
+        - "️🍎 (Its) 🇭🇰 香港 08"
+        - "️🍎 (Its) 🇭🇰 香港 09"
+        - "️🍎 (Its) 🇭🇰 香港 10"
+        - "️🍎 (Its) 🇭🇰 香港 11"
+        - "️🍎 (Its) 🇭🇰 香港 11 SS"
+        - "️🍎 (Its) 🇭🇰 香港 11 VL"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 01"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk01
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 05"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk05
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 06"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk06
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 07"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk07
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 08"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk08
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 09"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk09
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 10"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk10
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 11"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk11
+    - interval: 180
+      key_gf: 1
+      name: "️🍎 (Its) 🇨🇳 深圳"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_sz
+    - interval: 180
+      key_gf: 1
+      name: "️🍎 (Its) 🇸🇬 新加坡"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_sg
+    - interval: 180
+      key_gf: 1
+      name: "️🍎 (Its) 🇮🇳 印度"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_in
+    - interval: 180
+      key_gf: 1
+      name: "🍎 (Its) 🚀 ChatGPT"
+      tolerance: 50
+      type: url-test
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_chat
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 11 SS"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk11_ss
+    - interval: 180
+      key_gf: 0
+      name: "️🍎 (Its) 🇭🇰 香港 11 VL"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_hk11_vl
+    - interval: 180
+      key_gf: 1
+      name: "️🍎 (Its) 🇮🇳 印度 SS"
+      type: fallback
+      url: http://www.gstatic.com/generate_204
+      use:
+        - node_its_in_ss
+proxy-providers:
+    node_its_chat:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_chat.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_chat.yaml
+    node_its_hk01:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk01.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk01.yaml
+    node_its_hk05:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk05.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk05.yaml
+    node_its_hk06:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk06.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk06.yaml
+    node_its_hk07:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk07.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk07.yaml
+    node_its_hk08:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk08.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk08.yaml
+    node_its_hk09:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk09.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk09.yaml
+    node_its_hk10:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk10.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk10.yaml
+    node_its_hk11:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk11.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk11.yaml
+    node_its_hk11_ss:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk11_ss.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk11_ss.yaml
+    node_its_hk11_vl:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_hk11_vl.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_hk11_vl.yaml
+    node_its_in:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_in.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_in.yaml
+    node_its_in_ss:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_in_ss.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_in_ss.yaml
+    node_its_sg:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_sg.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_sg.yaml
+    node_its_sz:
+        health-check:
+            enable: false
+            interval: 600
+            tolerance: 1000
+            url: http://www.google.com/generate_204
+        interval: 1800
+        path: ./providers/node_its_sz.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/providers/node_its_sz.yaml
+redir-port: 7892
+rule-providers:
+    rgx_rule_github_direct_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_github_direct_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_direct_app.yaml
+    rgx_rule_github_gfw_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_github_gfw_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_gfw_domain.yaml
+    rgx_rule_github_google_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_github_google_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_google_domain.yaml
+    rgx_rule_github_netflix_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_github_netflix_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_netflix_domain.yaml
+    rgx_rule_github_tiktok_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_github_tiktok_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_tiktok_domain.yaml
+    rgx_rule_github_youtube_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_github_youtube_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_github_youtube_domain.yaml
+    rgx_rule_merge_chatgpt_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_chatgpt_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_chatgpt_domain.yaml
+    rgx_rule_merge_chatgpt_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_merge_chatgpt_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_chatgpt_ip.yaml
+    rgx_rule_merge_direct_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_merge_direct_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_direct_app.yaml
+    rgx_rule_merge_direct_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_direct_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_direct_domain.yaml
+    rgx_rule_merge_direct_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_merge_direct_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_direct_ip.yaml
+    rgx_rule_merge_game_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_game_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_game_domain.yaml
+    rgx_rule_merge_inner_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_merge_inner_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_inner_app.yaml
+    rgx_rule_merge_inner_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_inner_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_inner_domain.yaml
+    rgx_rule_merge_inner_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_merge_inner_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_inner_ip.yaml
+    rgx_rule_merge_outer_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_merge_outer_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_outer_app.yaml
+    rgx_rule_merge_outer_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_outer_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_outer_domain.yaml
+    rgx_rule_merge_outer_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_merge_outer_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_outer_ip.yaml
+    rgx_rule_merge_proxy_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_merge_proxy_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_proxy_app.yaml
+    rgx_rule_merge_proxy_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_merge_proxy_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_proxy_domain.yaml
+    rgx_rule_merge_proxy_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_merge_proxy_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_merge_proxy_ip.yaml
+    rgx_rule_self_adspower_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_adspower_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_adspower_domain.yaml
+    rgx_rule_self_adspower_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_adspower_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_adspower_ip.yaml
+    rgx_rule_self_chatgpt_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_chatgpt_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_chatgpt_domain.yaml
+    rgx_rule_self_direct_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_self_direct_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_direct_app.yaml
+    rgx_rule_self_direct_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_direct_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_direct_domain.yaml
+    rgx_rule_self_direct_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_direct_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_direct_ip.yaml
+    rgx_rule_self_hk_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_hk_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_hk_domain.yaml
+    rgx_rule_self_hk_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_hk_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_hk_ip.yaml
+    rgx_rule_self_india_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_india_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_india_domain.yaml
+    rgx_rule_self_itshk_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_itshk_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itshk_domain.yaml
+    rgx_rule_self_itshk_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_itshk_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itshk_ip.yaml
+    rgx_rule_self_itssg_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_itssg_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itssg_domain.yaml
+    rgx_rule_self_itssg_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_itssg_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itssg_ip.yaml
+    rgx_rule_self_itssz_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_itssz_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itssz_domain.yaml
+    rgx_rule_self_itssz_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_itssz_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_itssz_ip.yaml
+    rgx_rule_self_proxy_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_self_proxy_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_proxy_app.yaml
+    rgx_rule_self_proxy_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_proxy_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_proxy_domain.yaml
+    rgx_rule_self_proxy_ip:
+        behavior: ipcidr
+        interval: 1800
+        path: ./rules/rgx_rule_self_proxy_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_proxy_ip.yaml
+    rgx_rule_self_reject_app:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_self_reject_app.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_reject_app.yaml
+    rgx_rule_self_reject1_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_reject1_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_reject1_domain.yaml
+    rgx_rule_self_reject2_domain:
+        behavior: domain
+        interval: 1800
+        path: ./rules/rgx_rule_self_reject2_domain.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_reject2_domain.yaml
+    rgx_rule_self_ssh_ip:
+        behavior: classical
+        interval: 1800
+        path: ./rules/rgx_rule_self_ssh_ip.yaml
+        type: http
+        url: https://itscdn.wilker.cn/clash/rules/rgx_rule_self_ssh_ip.yaml
+rules:
+    - "RULE-SET,rgx_rule_self_direct_domain,🎯 直连"
+    - "RULE-SET,rgx_rule_self_direct_app,🎯 直连"
+    - "RULE-SET,rgx_rule_github_direct_app,🎯 直连"
+    - "RULE-SET,rgx_rule_merge_direct_app,🎯 直连"
+    - "RULE-SET,rgx_rule_merge_inner_app,🇨🇳 国内媒体"
+    - "RULE-SET,rgx_rule_self_itssz_domain,️🍎 (Its) 🇨🇳 深圳"
+    - "RULE-SET,rgx_rule_self_itssz_ip,️🍎 (Its) 🇨🇳 深圳,no-resolve"
+    - "RULE-SET,rgx_rule_self_ssh_ip,️🍎 (Its) 🇭🇰 香港 All,no-resolve"
+    - "RULE-SET,rgx_rule_self_itshk_domain,️🍎 (Its) 🇭🇰 香港 All"
+    - "RULE-SET,rgx_rule_self_itshk_ip,️🍎 (Its) 🇭🇰 香港 All,no-resolve"
+    - "RULE-SET,rgx_rule_self_itssg_domain,️🍎 (Its) 🇸🇬 新加坡"
+    - "RULE-SET,rgx_rule_self_itssg_ip,️🍎 (Its) 🇸🇬 新加坡,no-resolve"
+    - "RULE-SET,rgx_rule_self_hk_domain,🍋 (City) 🇭🇰 香港"
+    - "RULE-SET,rgx_rule_self_hk_ip,🍋 (City) 🇭🇰 香港,no-resolve"
+    - "RULE-SET,rgx_rule_self_india_domain,🍋 (City) 🇮🇳 印度"
+    - "RULE-SET,rgx_rule_self_adspower_domain,📢 AdsPower"
+    - "RULE-SET,rgx_rule_self_adspower_ip,📢 AdsPower,no-resolve"
+    - "RULE-SET,rgx_rule_merge_chatgpt_domain,🚀 ChatGPT"
+    - "RULE-SET,rgx_rule_merge_chatgpt_ip,🚀 ChatGPT,no-resolve"
+    - "RULE-SET,rgx_rule_self_chatgpt_domain,🚀 ChatGPT"
+    - "RULE-SET,rgx_rule_self_proxy_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_self_proxy_ip,🔰 代理,no-resolve"
+    - RULE-SET,rgx_rule_self_reject_app,❌ 拦截
+    - RULE-SET,rgx_rule_self_reject1_domain,❌ 拦截
+    - RULE-SET,rgx_rule_self_reject2_domain,❌ 拦截
+    - "RULE-SET,rgx_rule_self_direct_ip,🎯 直连,no-resolve"
+    - "RULE-SET,rgx_rule_self_proxy_app,🔰 代理"
+    - "RULE-SET,rgx_rule_merge_proxy_app,🔰 代理"
+    - "RULE-SET,rgx_rule_merge_outer_app,🇺🇸 国外媒体"
+    - "RULE-SET,rgx_rule_github_google_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_github_youtube_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_github_netflix_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_github_tiktok_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_github_gfw_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_merge_direct_domain,🎯 直连"
+    - "RULE-SET,rgx_rule_merge_proxy_domain,🔰 代理"
+    - "RULE-SET,rgx_rule_merge_outer_domain,🇺🇸 国外媒体"
+    - "RULE-SET,rgx_rule_merge_inner_domain,🇨🇳 国内媒体"
+    - "RULE-SET,rgx_rule_merge_game_domain,🎮 游戏平台"
+    - "RULE-SET,rgx_rule_merge_direct_ip,🎯 直连,no-resolve"
+    - "RULE-SET,rgx_rule_merge_proxy_ip,🔰 代理,no-resolve"
+    - "RULE-SET,rgx_rule_merge_outer_ip,🇺🇸 国外媒体,no-resolve"
+    - "RULE-SET,rgx_rule_merge_inner_ip,🇨🇳 国内媒体,no-resolve"
+    - "GEOIP,LAN,🎯 直连"
+    - "GEOIP,CN,🎯 直连"
+    - "MATCH,🔰 代理"
+secret: hello
+socks-port: 7891
+
+its_key: its1688
