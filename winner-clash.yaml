@@ -2,57 +2,27 @@ allow-lan: true
 clash-for-android:
     append-system-dns: false
 dns:
-    default-nameserver:
-        - 114.114.114.114
-        - 114.114.115.115
-        - 223.5.5.5
-        - 223.6.6.6
-        - 119.29.29.29
-        - 8.8.8.8
-        - 8.8.4.4
-        - 1.1.1.1
-        - 1.0.0.1
-        - 208.67.222.222
-        - 208.67.220.220
-    enable: true
-    enhanced-mode: fake-ip
-    fake-ip-filter:
-        - '*.lan'
-        - '*.local'
-    fake-ip-range: 198.18.0.1/16
-    fallback:
-        - https://1.1.1.1/dns-query
-        - https://1.0.0.1/dns-query
-        - https://dns.google/dns-query
-        - https://public.dns.iij.jp/dns-query
-        - https://dns.quad9.net/dns-query
-        - https://doh.sb/dns-query
-        - 9.9.9.9
-        - 1.0.0.1
-    fallback-filter:
-        geoip: true
-        geoip-code: CN
-        ipcidr:
-            - 240.0.0.0/4
-            - 0.0.0.0/8
-            - 127.0.0.0/8
-    ipv6: false
-    listen: 0.0.0.0:1053
-    nameserver:
-        - https://doh.pub/dns-query
-        - https://dns.alidns.com/dns-query
-        - 114.114.114.114
-        - 114.114.115.115
-        - 223.5.5.5
-        - 223.6.6.6
-        - 119.29.29.29
-        - 8.8.8.8
-        - 8.8.4.4
-        - 1.1.1.1
-        - 1.0.0.1
-        - 208.67.222.222
-        - 208.67.220.220
-    use-hosts: true
+  enable: true
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-hosts: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://dns.quad9.net/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/8
+      - 127.0.0.0/8
 external-controller: :9090
 log-level: info
 mixed-port: 7893
